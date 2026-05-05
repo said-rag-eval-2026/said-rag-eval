@@ -1,0 +1,15 @@
+# API keys for OpenAI / Anthropic / Google providers.
+# Place actual 64-character hex keys here, one per line, OR as a Python list.
+# The key loader (rescore_v6.py:_load_api_keys) extracts any 64-hex-char
+# tokens it finds, so any plain-text or Python-dict layout works.
+#
+# Multiple keys are supported for round-robin parallelism; the asynchronous
+# client pool will distribute requests across them. CONCURRENT_PER_KEY
+# (env var, default 10) controls per-key concurrency.
+#
+# DO NOT commit real keys to a public repository. Add this file to your
+# local .gitignore.
+#
+# Example:
+# 0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef
+# fedcba9876543210fedcba9876543210fedcba9876543210fedcba9876543210

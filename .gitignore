@@ -1,0 +1,27 @@
+# API keys — never commit
+apikey.txt
+*.key
+
+# Caches
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# Generated artifacts (regenerate from source)
+cache_v2/
+emb_cache/
+data/
+vera_out/
+*.json.gz
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Output / logs
+*.log
+out/
+results/
