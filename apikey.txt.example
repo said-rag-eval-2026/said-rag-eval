@@ -1,0 +1,7 @@
+# Place your provider API keys here, one per line (or as a Python list).
+# The loader extracts any 64-char hex sequences and standard key formats.
+# Multiple keys are supported for round-robin parallelism.
+#
+# Example:
+# sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+# sk-ant-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx

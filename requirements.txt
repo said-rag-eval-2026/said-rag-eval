@@ -1,0 +1,16 @@
+# Core analysis dependencies (used by said/ and baselines/)
+numpy>=1.24
+scipy>=1.11
+
+# Data pipeline dependencies (used by data_pipeline/ and run_vera.py)
+openai>=1.0
+anthropic>=0.18
+google-genai>=0.3
+sentence-transformers>=2.2     # for VERA cross-encoder
+torch>=2.0                     # for sentence-transformers and BGE
+transformers>=4.30
+rank-bm25>=0.2.2
+pandas>=2.0
+openpyxl>=3.1                  # for human evaluation xlsx
+pyarrow>=12.0                  # for parquet datasets
+huggingface_hub>=0.20          # for HF dataset upload (optional)
